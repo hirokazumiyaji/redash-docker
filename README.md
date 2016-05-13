@@ -1,2 +1,2 @@
-# rehash-docker
-reddish docker environment
+# redash-docker
+redash docker environment
