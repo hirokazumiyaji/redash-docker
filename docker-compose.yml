@@ -11,7 +11,7 @@ redash:
     REDASH_REDIS_URL: redis://redis:6379/0
     REDASH_DATABASE_URL: postgresql://postgres@postgres/postgres
     REDASH_COOKIE_SECRET: rehash:cookie
-    REDASH_ALLOW_SCRIPTS_IN_USER_INPUT: true
+    REDASH_ALLOW_SCRIPTS_IN_USER_INPUT: 'True'
 redis:
   image: redis
 postgres:
